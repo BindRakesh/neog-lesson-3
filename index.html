@@ -50,15 +50,15 @@
 
     <h3>unorderd list</h3>
 
-    <ul>
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Item One</li>
+      <li class="list-item-inline">Item Two</li>
+      <li class="list-item-inline">Item Three</li>
     </ul>
 
     <h3>orderd list</h3>
 
-    <ol>
+    <ol reversed>
       <li>Item One</li>
       <li>Item Two</li>
       <li>Item Three</li>
@@ -68,17 +68,17 @@
 
     <h2>@navigation</h2>
 
-    <nav>
-      <h1>Navigation Heading</h1>
-      <ul>
-        <li>
-          <a href="/"> Home </a>
+    <nav class="navigation container">
+      <div class="nav-brand">Navigation Brand</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline link-active">
+          <a class="link" href="/"> Home </a>
         </li>
-        <li>
-          <a href="/"> Projects </a>
+        <li class="list-item-inline">
+          <a class="link" href="/"> Projects </a>
         </li>
-        <li>
-          <a href="/">Blog</a>
+        <li class="list-item-inline">
+          <a class="link" href="/">Blog</a>
         </li>
       </ul>
     </nav>
@@ -87,9 +87,9 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="/images/coder-img.svg" />
-        <h1>Rakesh Kumar Bind</h1>
+    <header class="hero">
+        <img class="hero-img" src="/images/coder-img.svg" />
+        <h1 class="hero-heading">Rakesh Kumar Bind<span style="color: var(--primary-color);"> NEO Coder</span></h1>
     </header>
 
     <hr>
@@ -111,14 +111,14 @@
     <h2>@footer</h2>
 
     <div>find me on these social sites</div>
-    <ul>
-      <li>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">
         <a href="/"> github </a>
       </li>
-      <li>
+      <li class="list-item-inline">
         <a href="/"> twitter </a>
       </li>
-      <li>
+      <li class="list-item-inline">
         <a href="/">linkedin</a>
       </li>
     </ul>
