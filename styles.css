@@ -2,6 +2,7 @@
 :root{
     --primary-color: #2DD4BF; 
     --dark-grey-color: #737373;
+    --ow-color: #cbd5e1;
 }
 
 body {
@@ -63,7 +64,12 @@ hr{
 
  .navigation .link{
      color: white;
-     padding: 0rem 0.4rem
+     padding: 0rem 0.4rem     
+ }
+
+ .navigation a:hover{
+    background-color: white;
+    color: var(--primary-color);
  }
 
  .navigation .nav-brand {
@@ -90,4 +96,17 @@ hr{
  .hero .hero-heading{
      color: var(--dark-grey-color);
      padding-top: 1rem;
+     text-align: center;
+ }
+
+ .section{
+     padding: 2rem;
+ }
+
+ .section h3{
+     text-align: center;
+ }
+
+ .ow{
+     background-color: var(--ow-color);
  }
