@@ -110,3 +110,14 @@ hr{
  .ow{
      background-color: var(--ow-color);
  }
+
+.footer{
+     background-color: var(--primary-color);
+     padding: 2rem;
+     text-align: center;
+     color: white;
+ }
+
+ .footer ul {
+     margin: auto;
+ }
